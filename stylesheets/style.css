@@ -122,6 +122,9 @@ a.navLink:visited
 	
 }
 
+
+
+
 .navList
 {
 	list-style-type:none;
@@ -323,6 +326,17 @@ figcaption {
   -moz-transition:    all 0.6s ease;
   -o-transition:      all 0.6s ease;
 }
+
+figcaption a{
+
+color: #ce681f !important;
+}
+
+figcaption a:hover{
+color: #ce681f;
+  border-bottom: 3px solid orange !important;
+
+}
 figure:hover figcaption {
   opacity: 1;
 }
@@ -352,3 +366,44 @@ figure:hover:before {
 .cap-bot figcaption { left: 0; bottom: -30%;}
 .cap-bot:hover figcaption { bottom: 0; }
 	
+	
+	
+	
+figure a.demoLink
+{
+
+	
+	margin: 0px auto 0px auto;
+	padding: 0 0 50 0;
+	/*width:150px;*/
+
+}
+}
+figure a.demoLink:hover
+{
+  color: #ce681f;
+  border-bottom: 3px solid orange !important;
+	
+}
+figure a.demoLink:link
+{
+	font-size: 18px;
+	color:#ce681f !important;
+	text-decoration:none;
+	text-transform:uppercase;
+	
+}
+
+figure a.demoLink:active
+{
+	color:white;
+  	border-bottom: 3px solid orange;
+
+	
+}
+
+figure a.demoLink:visited
+{
+	color:white;
+	
+}
